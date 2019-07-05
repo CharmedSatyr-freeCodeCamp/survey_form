@@ -1,0 +1,81 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<header>
+  <h1 id='title'>A Survey of Controversial Foods</h1>
+  <p id='description'><em>Choisissez la nourriture la plus délicieuse...</em></p>
+</header>
+<main>
+  <section class='info'>
+    <form id='survey-form'>
+      <label for='name' id="name-label">Name:</label>
+      <input type='text' id='name' placeholder='Guy Fieri' required />
+      <br/>
+      <label for='email' id="email-label">Email:</label>
+      <input type='email' id='email' placeholder='guy@fieri.com' required />
+      <br/>
+      <label for='number' id="number-label">Age:</label>
+      <input type='number' id='number' min="0" max="150" placeholder="29" />
+  </section>
+  <br/>
+  <section>
+    <fieldset>
+      <legend><label for='dropdown'>Pick a particularly palatable pie
+      <small>(or <a href='https://www.buzzfeed.com/arielknutson/strange-pies-you-still-might-eat' target='_blank'>click here for more information</a>)</small>:
+      </label></legend>
+      <select id='dropdown'>
+      <option value='vinegar'>Vinegar</option>
+      <option value='navy-bean'>Navy Bean</option>
+      <option value='funeral'>Funeral</option>
+      <option value='stargazy'>Stargazy</option>
+      <option value='dorito-onion'>Dorito and Onion</option>
+    </select>
+    </fieldset>
+    <br/>
+    <fieldset>
+      <legend>Button the best big bleu <small>(<a href='https://delishably.com/dairy/Everything-You-Ever-Wanted-To-Know-About-Blue-Cheese' target='_blank'>more Iifo</a>)</small>:</legend>
+      <label for='danish'>
+      <input type='radio' id='danish' value='danish' name='cheese'>
+        Danish Blue</label>
+      <label for='stilton'>
+      <input type='radio' id='stilton' value='stilton' name='cheese'>
+        Stilton</label>
+      <label for='gorgonzola'>
+      <input type='radio' id='gorgonzola' value='gorgonzola' name='cheese'>
+        Gorgonzola</label>
+      <label for='roquefort'>
+      <input type='radio' id='roquefort' value='roquefort' name='cheese'>
+        Roquefort</label>
+      <label for='maytag'>
+      <input type='radio' id='maytag' value='maytag' name='cheese'>
+        Maytag</label>
+    </fieldset>
+    <br/>
+    <fieldset>
+      <legend>Check choice chiclets <small>(<a href='https://www.buzzfeed.com/paulf24/25-ridiculous-flavors-of-gum-that-actually-exist-b5ra?utm_term=.hgQnvZ0aA#.stQK1q4rk' target='_blank'>more info</a>)</small>:</legend>
+      <label for='bacon'>
+      <input type="checkbox" id='bacon' value='bacon' name='gum'>
+        Bacon
+      </label>
+      <label for='wasabi'>
+      <input type="checkbox" id='thanksgiving' value='thanksgiving' name='gum'>
+        Wasabi</label>
+      <label for='thanksgiving'>
+      <input type="checkbox" id='anchovies' value='anchovies' name='gum'>
+        Thanksgiving</label>
+      <label for='man-smell'>
+      <input type="checkbox" id='man-smell' value='man-smell' name='gum'>
+        Man Smell</label>
+      <label for='cat-hairball'>
+      <input type="checkbox" id='cat-hairball' value='cat-hairball' name='gum'>
+              Cat Hairball</label>
+    </fieldset>
+    <br/>
+    <label for='comments'>Additional Comments
+    <br/>
+    <textarea id='comments'></textarea>
+      </label>
+    <br/>
+    <br/>
+    <input id='submit' type='submit' value='Submit' />
+    </form>
+  </section>
+</main>

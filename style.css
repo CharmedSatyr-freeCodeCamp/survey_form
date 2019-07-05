@@ -1,0 +1,36 @@
+body {
+  background: gray;
+}
+
+header,
+main {
+  background: white;
+  font-family: cursive;
+  margin: auto;
+  padding: 20px;
+  width: 80vw;
+}
+
+main {
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+header {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  text-align: center;
+}
+
+fieldset {
+  display: flex;
+  margin: 2px;
+}
+
+.info {
+  margin: 2px;
+  width: 50vw;
+}
+input {
+  margin: 2px;
+}
