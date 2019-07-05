@@ -1,10 +1,13 @@
-body {
-  background: gray;
+html, body {
+  background:#303030;
+  margin: 0;
+  margin-top: 5%;
+  padding: 0;
 }
 
 header,
 main {
-  background: white;
+  background: #ffffff;
   font-family: cursive;
   margin: auto;
   padding: 20px;
@@ -31,6 +34,7 @@ fieldset {
   margin: 2px;
   width: 50vw;
 }
+
 input {
   margin: 2px;
 }

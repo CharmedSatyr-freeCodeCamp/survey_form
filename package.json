@@ -4,19 +4,19 @@
   "description": "\"Build a Survey Form\" is a Responsive Web Design project for freeCodeCamp",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "live-server"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CharmedSatyr/survey_form.git"
+    "url": "git+https://github.com/CharmedSatyr-freeCodeCamp/survey_form.git"
   },
   "keywords": [],
   "author": "CharmedSatyr <z@charmed.tech>",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/CharmedSatyr/survey_form/issues"
+    "url": "https://github.com/CharmedSatyr-freeCodeCamp/survey_form/issues"
   },
-  "homepage": "https://github.com/CharmedSatyr/survey_form#readme",
+  "homepage": "https://github.com/CharmedSatyr-freeCodeCamp/survey_form#readme",
   "devDependencies": {
     "live-server": "^1.2.1"
   }
